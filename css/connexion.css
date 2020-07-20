@@ -1,0 +1,21 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 9 janv. 2017, 19:53:05
+    Author     : messo
+*/
+
+body {
+    background: #252525;
+    font-family: 'Open Sans';
+    font-weight: 300;
+}
+.main {
+    background: white url(../images/splashConnexion.jpg) right top no-repeat;
+    background-size: contain;
+    padding: 80px 20px 20px;
+    margin-top: 120px;
+}

@@ -1,0 +1,126 @@
+
+<html>
+    <head>
+        <title>intreface utilisateur</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/reset.css" rel="stylesheet" type="text/css"/>
+        <link href="css/utilisateur.css" rel="stylesheet" type="text/css"/>
+        <link href="css/bootstrap-theme.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+
+    </head>
+    <body>
+        <div id="contener">
+            <div id="nav">
+                <nav id="navmode" class = "navbar navbar-inverse" role = "navigation">
+
+                    <div class = "navbar-header">
+                        <a class = "navbar-brand" href = "#">3iNews</a>
+                    </div>
+
+                    <div >
+                        <ul class = "nav navbar-nav">
+                            <li ><a href = "#">Diffusion</a></li>
+                            <li><a href = "#">Utilisateur</a></li>
+                        </ul>
+                    </div>
+                    <div class="pull-right" >
+                        <ul class = "nav navbar-nav">
+
+                            <li>
+                                <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown">
+                                    Oulad moussa
+                                    <b class = "caret"></b>
+                                </a>
+
+                                <ul class = "dropdown-menu">
+                                    <li><a href = "#">A</a></li>
+                                    <li><a href = "#">B</a></li>
+
+                                </ul>
+
+                            </li>
+                        </ul>
+
+                    </div>
+                </nav>
+            </div>
+        </div>    
+
+
+        <div id="texte" >
+            <span>Utilisateurs </span>
+            <p></p>
+        </div>
+
+        <div id="btnajouter" >
+            <button class="btn">
+                Ajouter
+            </button>
+        </div>
+
+        <div id="table">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>id</th>
+                        <th>Nom-Prénom</th>
+                        <th>Admin</th>
+                        <th>Login</th>
+                        <th>Commandes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Gaudin herve</td>
+                        <td></td>
+                        <td>herveG </td>
+                        <th>
+                            <button class="btn">
+                                <i class="fa fa-pencil fa-fw"></i>  
+                            </button>
+                            <button class="btn">
+
+                                <i class="fa fa-trash fa-fw"></i>
+                            </button>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Otto</td>
+                        <td>check</td>
+                        <td>ott</td>
+                        <th>
+                            <button class="btn">
+                                <i class="fa fa-pencil fa-fw"></i>  
+                            </button>
+                            <button class="btn">
+                                <i class="fa fa-trash fa-fw"></i>
+                            </button>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>oulad mousa</td>
+                        <td></td>
+                        <td>mom</td>
+                        <th>
+                            <button class="btn">
+                                <i class="fa fa-pencil fa-fw"></i>  
+                            </button>
+                            <button class="btn">
+
+                                <i class="fa fa-trash fa-fw"></i>
+                            </button>
+                        </th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <script src="js/jquery-3.1.1.js" type="text/javascript"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    </body>
+</html>
